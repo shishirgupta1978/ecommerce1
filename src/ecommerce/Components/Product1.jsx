@@ -24,7 +24,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -41,7 +41,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -58,7 +58,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -75,7 +75,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -92,7 +92,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -109,7 +109,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -126,7 +126,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             <div className='pro'>
                 <img src={Img} alt=''/>
@@ -143,7 +143,7 @@ const Product1 = () => {
                     </div>
                     <h4>Rs. 578</h4>
                 </div>
-                <NavLink><FaShoppingCart className='cart'/></NavLink>
+                <NavLink><span className='cart'><FaShoppingCart/></span></NavLink>
             </div>
             
         </div>
