@@ -8,7 +8,7 @@ import Img1 from "../assets/hero3.jpg"
 const Blog = () => {
   return (
     <>
-      <HeroImage2/>
+    <HeroImage2 heading="ABOUT" text="I'm a friendly Back-End Developer"/>
       <section id="blog">
         <div className='blog-box'>
             <div className='blog-img'>
