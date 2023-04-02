@@ -23,14 +23,14 @@ const Navbar = () => {
         <li><NavLink to="/ecommerce/blog">Blog</NavLink></li>
         <li><NavLink to="/ecommerce/about">About</NavLink></li>
         <li><NavLink to="/ecommerce/contact">Contact</NavLink></li>
-       <li id="lg-bag"><NavLink to="/"><FaShoppingCart/></NavLink></li>
+       <li id="lg-bag"><NavLink to="/ecommerce/cart"><FaShoppingCart/></NavLink></li>
        <NavLink id="close" onClick={()=>{setClick(false)}}><FaTimes/></NavLink>
        
         </ul>
         
       </div>
       <div id="mobile">
-        <NavLink to="/"><FaShoppingCart/></NavLink>
+        <NavLink to="/ecommerce/cart"><FaShoppingCart/></NavLink>
         <NavLink id="bar" onClick={()=>{setClick(true)}}> <FaBars /></NavLink>
       </div>
 
