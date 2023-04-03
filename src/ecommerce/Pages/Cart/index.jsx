@@ -3,7 +3,7 @@ import {HeroImage2} from '../../Components'
 import { FaEnvelope, FaMap, FaTimes, FaTimesCircle } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import {Img1} from "../../assets"
-
+import './Cart.scss'
 
 export const Cart = () => {
   return (
@@ -13,12 +13,12 @@ export const Cart = () => {
          <section id="cart" className='section-p1'>
             <table width="100%">
                 <thead>
-                    <tr><th>Remove</th><th>Image</th><th>Product</th><th>Price</th><th>Quantity</th><th>Subtotol</th></tr>
+                    <tr><td>Remove</td><td>Image</td><td>Product</td><td>Price</td><td>Quantity</td><td>Subtotol</td></tr>
                 </thead>
                 <tbody>
-                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" value="1"/></td><td>Rs. 2020.00</td></tr>
-                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" value="1"/></td><td>Rs. 2020.00</td></tr>
-                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" value="1"/></td><td>Rs. 2020.00</td></tr>
+                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" defaultValue="1"/></td><td>Rs. 2020.00</td></tr>
+                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" defaultValue="1"/></td><td>Rs. 2020.00</td></tr>
+                <tr><td><NavLink><FaTimesCircle/></NavLink></td><td><img src={Img1} alt="img"/></td><td>Product Name</td><td>Rs. 132.00</td><td><input type="number" defaultValue="1"/></td><td>Rs. 2020.00</td></tr>
                 </tbody>
             </table>
 
@@ -33,9 +33,11 @@ export const Cart = () => {
             <div id="subtotal">
                 <h3>Cart Totals</h3>
                 <table>
+                    <tbody>
                     <tr><td>Cart Subtotal</td><td>Rs. 160.00</td></tr>
                     <tr><td>Shipping</td><td>Rs. 60.00</td></tr>
                     <tr><td><strong>Total</strong></td><td><strong>Rs. 220.00</strong></td></tr>
+                    </tbody>
  
 
                 </table>

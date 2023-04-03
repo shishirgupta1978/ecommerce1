@@ -1,5 +1,6 @@
 import React from 'react'
 import { savemoneyImg,onlineorderImg,pic24_7Img,promotionsImg,freeshippingImg,happysaleImg } from '../../assets'
+import './Feature.scss'
 
 export const Feature = () => {
   return (

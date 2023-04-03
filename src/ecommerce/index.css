@@ -49,7 +49,7 @@ button.normal{
   transition: 0.2s;
 
 }
-  .section-p1{
+.section-p1{
   padding:40px 80px;
 }
 
@@ -64,76 +64,6 @@ ul{
 }
 
 
-#header{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px 80px;
-background:#E3E6F3;
-box-shadow: 0 5px 15px rgba(0,0,0,0.06);
-z-index: 999;
-position: sticky;
-top:0;
-left:0;
-}
-
-#header .brand-logo{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-#header a{
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: 600;
-  color: #1a1a1a;
-  transition: 0.3s ease;
-}
-#header a span{
-  padding-left: 10px;
-  font-weight: 900;
-  color:#088178;
-}
-#navbar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#navbar li{
-  list-style: none;
-  padding: 0 20px;
-  position: relative;
-}
-#navbar li a{
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: #1a1a1a;
-  transition: 0.3s ease;
-}
-#navbar li a:hover,#navbar li a.active{
-  color:#088178;
-
-}
-#navbar li a.active::after,#navbar li a:hover::after{
-  content: "";
-  width: 30%;
-  height: 2px;
-  background:#088178 ;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-}
-
-
-#mobile{
-  display: none;
-  align-items: center;
-}
-#close{
-  display: none;
-}
 #hero{
   background-image: url('./assets/images/hero2.jpg');
   height: 90vh;
@@ -167,58 +97,6 @@ justify-content: space-between;
   font-size: 15px;
 
 
-}
-
-#feature{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-#feature .fe-box{
-  width: 180px;
-  text-align: center;
-  padding: 25px 15px;
-  box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
-  border: 1px solid #cce7d0;
-  border-radius: 4px;
-  margin: 15px 0;
-}
-
-#feature .fe-box:hover{
-
-  box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
-}
-#feature .fe-box img{
-  width: 100%;
-  margin-bottom: 10px;
-
-}
-
-#feature .fe-box h6{
-  display: inline-block;
-  padding:  9px 8px 6px 8px;
-  line-height: 1;
-  border-radius: 4px;
-  color: #088178;
-  background-color: #fddde4;
-}
-
-#feature .fe-box:nth-child(2) h6{
-  background-color: #cdebbc;
-}
-
-#feature .fe-box:nth-child(3) h6{
-  background-color: #d1e8f2;
-}
-#feature .fe-box:nth-child(4) h6{
-  background-color: #cdd4f8;
-}
-#feature .fe-box:nth-child(5) h6{
-  background-color: #f6dbf6;
-}
-#feature .fe-box:nth-child(6) h6{
-  background-color: #fff2e5;
 }
 
 
@@ -437,124 +315,6 @@ button.white{
   font-weight: 800;
   font-size: 15px;
 }
-
-#newsletter{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  background-image: url("./assets/images/hero3.jpg");
-  background-repeat: no-repeat;
-  background-position: 20% 30%;
-  background-color: #041e42;
-}
-
-#newsletter h4{
-font-size: 22px;
-font-weight: 700;
-color: #fff;
-}
-
-#newsletter p{
-  font-size: 14px;
-  font-weight: 600;
-  color: #818ea0;
-  }
-
-  #newsletter p span{
-    color: #ffbd27;
-    }
-
-    #newsletter .form{
-
-      display: flex;
-      width: 40%;
-    }
-    #newsletter input{
-      height: 3.125rem;
-      padding: 0 1.25em;
-      font-size: 14px;
-      width: 100%;
-      border: 1px solid transparent;
-      border-radius: 4px;
-      outline: none;
-      border-top-right-radius: 0;
-      border-bottom-right-radius: 0;
-    }
-
-
-    #newsletter button{
-      background-color: #088178;
-      color: #fff;
-      white-space: nowrap;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-
-    }
-
-
-    footer{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    footer .col{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      max-width: 540px;
-      min-width: 270;
-    }
-
-    footer .logo{
-      margin-bottom: 30px;
-      width:100%;
-
-    }
-    footer h4{
-      font-size: 14px;
-      padding-bottom: 20px;
-    }
-    footer p{
-      font-size: 13px;
-      margin: 0 0 8px 0;
-    }
-    footer a{
-      font-size: 13px;
-      text-decoration: none;
-      color :#222;
-      margin-bottom: 10px;
-    }
-    footer .follow{
-      margin-top: 20px;
-
-    }
-    footer .follow .icon i{
-      color :#465b52;
-      padding-right: 4px;
-
-    }
-
-    footer .install .row img{
-      border: 1px solid #088178;
-      border-radius: 6px;
-      width: 50%;
-      height: 50px;
-    }
-    footer .install img{
-      margin: 10px 0 15px 0;
-      width: 100%;
-      height: 50px;
-    }
-
-    footer .follow i:hover, footer a:hover{
-      color :#088178;
-    }
-    footer .copyright{
-      width: 100%;
-      text-align: center;
-    }
 
 
 
@@ -841,161 +601,18 @@ height: 400px;
   color:#000;
 
 }
-#cart{
-  overflow-x: auto;
-}
-#cart table{
-  width:100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  white-space: nowrap;
-}
-#cart table img{
-  width: 70px;
-}
-#cart table td:nth-child(1){
-  width: 100px;
-  text-align: center;
-}
-#cart table td:nth-child(2){
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(3){
-  width: 250px;
-  text-align: center;
-}
-#cart table td:nth-child(4),#cart table td:nth-child(5),#cart table td:nth-child(6){
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(5) input{
-  width: 70px;
-  padding: 10px 5px 10px 15px;
-}
-#cart table thead{
-  border:1px solid #e2e9e1;
-  border-left: none;
-  border-right: none;
-}
-#cart table thead th{
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 13px;
-  padding:18px 0 ;
-}
-#cart table tbody tr td{
-  padding-top: 15px;
-}
-#cart table tbody td{
-  font-size: 13px;
-}
-#cart-add{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-#coupon{
-  width: 50%;
-  margin-bottom: 30px;
-}
-#coupon h3,#subtotal h3{
-padding-bottom: 15px;
-}
-  #coupon input{
-padding: 10px 20px;
-outline: none;
-width: 60%;
-margin-right: 10px;
-border: 1px solid #e2e9e1;
-  }
 
-  #coupon button,#subtotal button{
-    background-color: #088178;
-    color: #fff;
-    padding: 12px 20px;
-
-  }
-  #subtotal{
-    width: 50%;
-    margin-bottom: 30px;
-    border: 1px solid #e2e9e1;
-    padding: 30px;
-  }
-  #subtotal table{
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  #subtotal table td{
-    width: 50%;
-    border: 1px solid #e2e9e1;
-    padding: 10px;
-    font-size: 13px;
-
-  }
     @media (max-width:799px){
       .section-p1{
         padding: 40px 40px;
       }
-      #navbar{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top:0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.3s;
-      }
-     #navbar.active{
-        right:0px;
-      }
-      #navbar li{
-        margin-bottom: 25px;
-      }
-      #mobile{
-        display: flex;
-        align-items: center;
-      }
-      #mobile span{
-        color:#1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-      }
-
-     #close{
-      display: initial;
-      position: absolute;
-      top:30px;
-      left: 30px;
-      color:#222;
-      font-size: 24px;
-     }
-     #lg-bag{
-      display: none;
-     }
-     #bar{
-      margin-left: 10px;
-     } 
-
+   
      #hero{
       height: 70vh;
       padding: 0 80px;
       background-position: top 30% right 30%;
      }
-     #feature{
-      justify-content: center;
-
-     }
-     #feature .fe-box{
-      margin: 15px 15px;
-     }
+   
      #product1 .pro-container{
       justify-content: center;
      }
@@ -1021,10 +638,7 @@ border: 1px solid #e2e9e1;
      #banner3 .banner-box{
       width: 28%;
      }
-     #newsletter .form{
-      width: 70%;
-
-     }
+     
      #form-details{
       padding: 40px;
 
@@ -1039,9 +653,7 @@ border: 1px solid #e2e9e1;
       .section-p1{
         padding:20px;
       }
-      #header{
-        padding: 10px 30px;
-      }
+  
       h1{
         font-size: 38px;
       }
@@ -1052,13 +664,6 @@ border: 1px solid #e2e9e1;
       #hero{
         padding: 0 20px;
         background-position: 55%;
-      }
-      #feature{
-        justify-content: space-between;
-      }
-      #feature .fe-box{
-        width: 155px;
-        margin: 0 0 15px 0;
       }
       #product1 .pro{
         width: 100%;
@@ -1078,15 +683,7 @@ border: 1px solid #e2e9e1;
        #banner3 .banner-box{
         width: 100%;
        }
-       #newsletter{
-        padding:40px 20px;
-       }
-       #newsletter .form{
-        width: 100%;
-       }
-       footer .copyright{
-        text-align: start;
-       }
+       
        #prodetails{
         display: flex;
         flex-direction: column;
@@ -1152,14 +749,5 @@ border: 1px solid #e2e9e1;
   width: 100%;
   margin-bottom: 30px;
 }
-#cart-add{
-  flex-direction: column;
-}
-#coupon{
-  width: 100%;
-}
-#Subtotal{
-  width: 100%;
-  padding: 20px;
-}
+
     }

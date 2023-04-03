@@ -3,6 +3,7 @@ import {FaHome,FaYoutube,FaLinkedin,FaMailBulk,FaPhone,FaFacebook,FaTwitter} fro
 import { NavLink } from 'react-router-dom'
 //import logo from '../assets/react.svg'
 import {playstoreImg,paymentImg,appstoreImg} from '../../assets'
+import './Footer.scss'
 export const Footer = () => {
   return (
     <footer className='section-p1'>

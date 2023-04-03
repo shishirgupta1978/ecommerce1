@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import {NavLink} from 'react-router-dom'
 import {FaBars,FaTimes,FaShoppingCart} from 'react-icons/fa'
 import {logoImg} from '../../assets'
+import './Header.scss'
 
 
 export const Header = () => {
