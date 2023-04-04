@@ -1,13 +1,14 @@
 import React from 'react'
-import {HeroImage2,Feature} from '../../Components'
+import {PageHeader,Feature} from '../../Components'
 import { NavLink } from 'react-router-dom'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import {Img1} from "../../assets"
+import './About.scss'
 
 export const About = () => {
   return (
     <>
-    <HeroImage2 heading="ABOUT" text="I'm a friendly Back-End Developer"/>
+    <PageHeader heading="ABOUT" text="I'm a friendly Back-End Developer" image={Img1}/>
     <section id="about-head" className='section-p1'>
       <img src={Img1} alt=""/>
       <div>

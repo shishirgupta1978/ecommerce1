@@ -16,11 +16,17 @@ import _payment from './payment.png';
 import _logo from './logo.svg';
 import _upcoming from './upcoming.jpg';
 import _buy1 from './buy1.jpg'
-
+import _banner from './banner.jpg'
 import _tshirt from './tshirt.jpg'
 import _summersale from './summersale.jpg'
 import _footwear from './footwear.jpg'
+import _front from './front.jpg'
+import _button from './button.jpg'
+import _newsletter from './newsletter.jpg'
 
+export const newsletterImg = _newsletter;
+export const buttonImg =_button;
+export const frontImg =_front;
 export const footwearImg = _footwear;
 export const buy1Img =_buy1;
 export const summersaleImg =_summersale;
@@ -32,6 +38,7 @@ export const onlineorderImg = _onlineorder
 export const pic24_7Img = _pic24_7 
 export const promotionsImg =_promotions
 export const savemoneyImg = _savemoney 
+export const bannerImg = _banner
 
 
 
@@ -45,3 +52,4 @@ export const appstoreImg =_appstore;
 export const playstoreImg =_playstore;
 export const paymentImg =_payment;
 export const logoImg =_logo;
+

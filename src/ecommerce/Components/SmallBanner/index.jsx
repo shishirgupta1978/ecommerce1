@@ -1,4 +1,5 @@
 import React from 'react'
+import './SmallBanner.scss'
 
 export const SmallBanner = () => {
   return (

@@ -1,13 +1,14 @@
 import React from 'react'
-import {HeroImage2} from '../../Components'
+import {PageHeader} from '../../Components'
 import { NavLink } from 'react-router-dom'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import {Img1} from "../../assets"
+import './Blog.scss'
 
 export const Blog = () => {
   return (
     <>
-    <HeroImage2 heading="ABOUT" text="I'm a friendly Back-End Developer"/>
+    <PageHeader heading="ABOUT" text="I'm a friendly Back-End Developer" image={Img1}/>
       <section id="blog">
         <div className='blog-box'>
             <div className='blog-img'>

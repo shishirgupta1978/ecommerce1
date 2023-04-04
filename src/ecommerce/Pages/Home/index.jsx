@@ -1,10 +1,10 @@
 import React from 'react'
-import {Banner,Feature,HeroImage,Product1,SmallBanner,TextBanner} from '../../Components'
+import {Banner,Feature,Front,Product1,SmallBanner,TextBanner} from '../../Components'
 
 export const Home = () => {
   return (
     <div>
-      <HeroImage/>
+      <Front/>
       <Feature/>
       <Product1/>
       <Banner/>

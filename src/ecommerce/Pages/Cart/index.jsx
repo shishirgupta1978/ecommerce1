@@ -1,5 +1,5 @@
 import React from 'react'
-import {HeroImage2} from '../../Components'
+import {PageHeader} from '../../Components'
 import { FaEnvelope, FaMap, FaTimes, FaTimesCircle } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import {Img1} from "../../assets"
@@ -9,7 +9,7 @@ export const Cart = () => {
   return (
     <div>
         
-         <HeroImage2 heading="Contact Us" text="Feedback and Suggestions"/>
+         <PageHeader heading="Contact Us" text="Feedback and Suggestions" image={Img1}/>
          <section id="cart" className='section-p1'>
             <table width="100%">
                 <thead>

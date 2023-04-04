@@ -1,13 +1,15 @@
 import React from 'react'
-import {HeroImage2,Form} from '../../Components'
+import {PageHeader,Form} from '../../Components'
 import { FaEnvelope, FaMap } from 'react-icons/fa'
+import './Contact.scss'
+import { Img1 } from '../../assets'
 
 
 export const Contact = () => {
   return (
     <div>
         
-         <HeroImage2 heading="Contact Us" text="Feedback and Suggestions"/>
+         <PageHeader heading="Contact Us" text="Feedback and Suggestions" image={Img1}/>
          <section id="contact-details" className='section-p1'>
           <div className='details'>
             <span>GET IN TOUCH</span>
