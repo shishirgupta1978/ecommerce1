@@ -83,85 +83,16 @@ ul{
 
 
 
-#product1{
+.text-align-center{
   text-align: center;
 }
 
-#product1 .pro-container{
+.pro-container{
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
 }
-
-
-#product1 .pro{
-  width: 23%;
-  min-width: 250px;
-  padding: 10px 12px;
-  border: 1px solid #cce7d0;
-  border-radius: 25px;
-  cursor: pointer;
-  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
-  margin: 15px 0;
-  transition: 0.3s ease;
-  position: relative;
-}
-#product1 .pro:hover{
-  box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
-
-}
-#product1 .pro img{
-
-  width: 100%;
-  border-radius: 20px;
-}
-#product1 .pro .des{
-  text-align: start;
-  padding: 10px 0;
-
-}
-
-#product1 .pro .des span{
-  color:#606063;
-  font-size: 12px;
-}
-
-#product1 .pro .des h5{
-padding-top: 7px;
-color:#1a1a1a;
-font-size: 14px;
-}
-
-#product1 .pro .des svg{
-  font-size: 12px;
-  color: rgb(255,238,3);
-
-
-}
-
-#product1 .pro .des h4{
-padding-top: 7px;
-font-size: 15px;
-font-weight: 700;
-color:#088178;
-}
-
-#product1 .pro .cart{
-
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color:#e8f6ea ;
-  font-weight: 500;
-  color:#088178;
-  border: 1px solid #cce7d0;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-}
-
 
 
 
@@ -185,22 +116,7 @@ color:#088178;
   color:#fff;
 
 }
-#pagination{
-  text-align: center;
-}
-#pagination a{
-  text-decoration: none;
-  background-color: #088178;
-  padding: 15px 20px;
-  margin: 3px;
-  border-radius: 4px;
-  color: #fff;
-font-weight: 600;
-}
-#pagination a span{
-  font-size: 16p;
-  font-weight: 600;
-}
+
 #prodetails{
   display: flex;
   margin-top: 20px;
@@ -274,13 +190,10 @@ font-size: 26px;
       }
    
    
-     #product1 .pro-container{
+      .pro-container{
       justify-content: center;
      }
-     #product1 .pro{
-      margin: 15px;
-     }
-  
+   
    
     }
 
@@ -297,9 +210,7 @@ font-size: 26px;
         font-size: 32px;
       }
     
-      #product1 .pro{
-        width: 100%;
-      }
+ 
      
        
        #prodetails{

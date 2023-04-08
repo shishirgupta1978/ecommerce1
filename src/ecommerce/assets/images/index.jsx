@@ -23,7 +23,17 @@ import _footwear from './footwear.jpg'
 import _front from './front.jpg'
 import _button from './button.jpg'
 import _newsletter from './newsletter.jpg'
+import _contact from './contact.jpg'
+import _shop from './shop.jpg'
+import _about from './about.jpg'
+import _about2 from './aboutus.jpg'
+import _blog from './blog.jpg'
 
+export const blogImg = _blog
+export const about2Img =_about2;
+export const shopImg = _shop;
+export const contactImg = _contact;
+export const aboutImg = _about;
 export const newsletterImg = _newsletter;
 export const buttonImg =_button;
 export const frontImg =_front;

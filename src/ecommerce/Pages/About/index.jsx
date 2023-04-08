@@ -2,15 +2,15 @@ import React from 'react'
 import {PageHeader,Feature} from '../../Components'
 import { NavLink } from 'react-router-dom'
 import { FaLongArrowAltRight } from 'react-icons/fa'
-import {Img1} from "../../assets"
+import {aboutImg,about2Img} from "../../assets"
 import './About.scss'
 
 export const About = () => {
   return (
     <>
-    <PageHeader heading="ABOUT" text="I'm a friendly Back-End Developer" image={Img1}/>
+    <PageHeader heading="ABOUT" text="I'm a friendly Back-End Developer" image={aboutImg}/>
     <section id="about-head" className='section-p1'>
-      <img src={Img1} alt=""/>
+      <img src={about2Img} alt=""/>
       <div>
         <h2>Who We Are?</h2>
         <p>sdfjsdf sdkf dsfj sdfj lsdfj dslfj dlsfj sdfj dlsfj dlfj dfj sdfj dsfj dlf </p>
