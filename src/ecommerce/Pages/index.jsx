@@ -6,4 +6,5 @@ export * from './Home'
 export * from './ProductDetail'
 export * from './Shop'
 export * from './Layout'
+export * from './Form'
 

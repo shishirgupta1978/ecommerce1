@@ -1,0 +1,116 @@
+$primary:#088178;
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 88vh;
+    width: 100%;
+    
+   background: url('background6.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-section .form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-section h2{
+    font-size: 2em;
+    color: $primary;
+    text-align: center;
+}
+.form-section .inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid $primary;
+}
+.form-section .inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color:$primary;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+    width: 100%;
+}
+
+.form-section input:focus ~ label,
+.form-section input:valid ~ label{
+top: -5px;
+}
+.form-section .inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: $primary;
+}
+.form-section .inputbox .icon{
+    position: absolute;
+    right: 8px;
+    color:$primary;
+    font-size: 1.2em;
+    top: 20px;
+}
+.form-section .forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: $primary;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.form-section .forget label input{
+    margin-right: 3px;
+    
+}
+.form-section .forget label a,.form-section .forget span a{
+    color: $primary;
+    text-decoration: none;
+    font-weight: 700;
+}
+.form-section .forget label a:hover,.form-section .forget span a:hover{
+    text-decoration: underline;
+}
+.form-section button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: $primary;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+}
+.form-section .register{
+    font-size: .9em;
+    color: $primary;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.form-section .register p a{
+    text-decoration: none;
+    color: $primary;
+    font-weight: 600;
+}
+.form-section .register p a:hover{
+    text-decoration: underline;
+}

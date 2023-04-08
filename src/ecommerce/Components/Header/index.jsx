@@ -25,6 +25,7 @@ export const Header = () => {
         <li><NavLink to="/ecommerce/about">About</NavLink></li>
         <li><NavLink to="/ecommerce/contact">Contact</NavLink></li>
        <li id="lg-bag"><NavLink to="/ecommerce/cart"><FaShoppingCart/></NavLink></li>
+       <li><NavLink to="/ecommerce/login">Login</NavLink></li>
        <NavLink id="close" onClick={()=>{setClick(false)}}><FaTimes/></NavLink>
        
         </ul>
